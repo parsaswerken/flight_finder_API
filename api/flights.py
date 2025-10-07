@@ -1,5 +1,5 @@
-from file_manager import load_appended
-from filters import filter_by_city, filter_by_cost, filter_by_trip_type, filter_by_passenger_type
+from local.file_manager import load_appended
+from local.filters import filter_by_city, filter_by_cost, filter_by_trip_type, filter_by_passenger_type
 
 
 def handler(request, response):

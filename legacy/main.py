@@ -1,6 +1,6 @@
-from local.api_client import fetch_flights
-from local.file_manager import is_cache_valid, save_appended, load_appended
-from local.filters import filter_by_city, filter_by_cost, filter_by_trip_type, filter_by_passenger_type
+from legacy.api_client import fetch_flights
+from legacy.file_manager import is_cache_valid, save_appended, load_appended
+from legacy.filters import filter_by_city, filter_by_cost, filter_by_trip_type, filter_by_passenger_type
 
 
 def format_flights(raw_json: dict) -> list[dict]:

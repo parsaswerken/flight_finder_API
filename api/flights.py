@@ -11,6 +11,17 @@ def handler(request, response):
         "status": "ok",
         "note": "Python flights API is live!"
     })
+    def do_GET(self):
+        # Mock data just for testing UI
+        flights = [
+            {"departure": "Dallas-Fort Worth", "destination": "Los Angeles", "cost": "$500", "tripType": "round", "passengerType": "adult"},
+            {"departure": "Dallas-Fort Worth", "destination": "Los Angeles", "cost": "$750", "tripType": "round", "passengerType": "child"},
+        ]
+
+        self.send_response(200)
+        self.send_header("Content-type", "application/json")
+        self.end_headers()
+        self.wfile.write(json.dumps({"flights": flights}).encode())
 
     try:
         # Extract query params

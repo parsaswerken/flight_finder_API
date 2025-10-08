@@ -1,6 +1,6 @@
 from api_client import fetch_all_us_flights
-from legacy.file_manager import is_cache_valid, save_appended, load_appended
-from legacy.filters import filter_by_city, filter_by_cost, filter_by_trip_type, filter_by_passenger_type
+from api.file_manager import is_cache_valid, save_appended, load_appended
+from api.filters import filter_by_city, filter_by_cost, filter_by_trip_type, filter_by_passenger_type
 
 
 def main():

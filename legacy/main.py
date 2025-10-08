@@ -1,67 +1,46 @@
-from legacy.api_client import fetch_flights
+from api_client import fetch_all_us_flights
 from legacy.file_manager import is_cache_valid, save_appended, load_appended
 from legacy.filters import filter_by_city, filter_by_cost, filter_by_trip_type, filter_by_passenger_type
 
 
-def format_flights(raw_json: dict) -> list[dict]:
-    """Convert SerpApi JSON into simplified dicts for flights_appended.txt"""
-    flights = raw_json.get("best_flights", []) + raw_json.get("other_flights", [])
-    formatted = []
-    for f in flights:
-        flights_data = f.get("flights", [])
-        if not flights_data:
-            continue
-        departure_city = flights_data[0]["departure_airport"]["name"]
-        arrival_city = flights_data[-1]["arrival_airport"]["name"]
-        price = f.get("price", 0)
-        total_minutes = f.get("total_duration", 0)
-        hours, mins = divmod(total_minutes, 60)
-        duration_str = f"{hours}h {mins}m"
-        trip_type = f.get("type", "Unknown")
-        passenger_type = "Adult"  # default
-        formatted.append({
-            "departure_city": departure_city,
-            "arrival_city": arrival_city,
-            "price": price,
-            "duration": duration_str,
-            "trip_type": trip_type,
-            "passenger_type": passenger_type,
-        })
-    return formatted
-
-
 def main():
+    # Step 1: Ensure cache is fresh
     if not is_cache_valid():
-        print("Fetching fresh flights from API...")
-        data = fetch_flights(
-            departure_id="DFW",
-            arrival_id="LAX",
-            outbound_date="2025-11-10",
-            return_date="2025-11-17",
-            trip_type="1",
-            adults=1,
-            max_price=600
-        )
-        formatted = format_flights(data)
-        print(f"Formatted {len(formatted)} flights")
-        save_appended(formatted)
+        print(" Fetching fresh flights from API...")
+        flights = fetch_all_us_flights()  # already returns list of flights
+        print(f" Retrieved {len(flights)} flights")
+        save_appended(flights)
     else:
-        print("Using cached flights (flights_appended.txt)")
+        print(" Using cached flights (flights_appended.txt)")
 
+    # Step 2: Load flights
     flights = load_appended()
-    print(f"Loaded {len(flights)} flights from flights_appended.txt")
+    print(f" Loaded {len(flights)} flights from cache")
 
-    # Apply filters
-    flights = filter_by_city(flights, departure="Dallas", arrival="Los Angeles")
-    flights = filter_by_cost(flights, max_price=500)
-    flights = filter_by_trip_type(flights, "Round trip")
-    flights = filter_by_passenger_type(flights, "Adult")
+    # Step 3: Interactive filters
+    departure = input("Enter departure city (or press Enter to skip): ").strip()
+    arrival = input("Enter arrival city (or press Enter to skip): ").strip()
+    max_price = input("Enter maximum price (or press Enter to skip): ").strip()
+    trip_type = input("Enter trip type (Round trip / One way) [or skip]: ").strip()
+    passenger_type = input("Passenger type (Adult/Child/Infant) [default Adult]: ").strip()
 
-    print("\nAvailable Flights:\n")
+    # Step 4: Apply filters
+    if departure or arrival:
+        flights = filter_by_city(flights, departure=departure, arrival=arrival)
+    if max_price:
+        flights = filter_by_cost(flights, max_price=int(max_price))
+    if trip_type:
+        flights = filter_by_trip_type(flights, trip_type)
+    if passenger_type:
+        flights = filter_by_passenger_type(flights, passenger_type)
+
+    # Step 5: Display results
+    print("\n Available Flights:\n")
     if not flights:
-        print("No flights matched your filters.")
-    for line in flights[:10]:
-        print(line)
+        print(" No flights matched your filters.")
+    else:
+        for line in flights[:10]:  # limit to first 10
+            print(line)
 
 
 if __name__ == "__main__":

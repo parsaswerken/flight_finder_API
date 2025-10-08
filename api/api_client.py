@@ -1,50 +1,50 @@
-# api/api_client.py
 import os
 import requests
-from datetime import datetime, timedelta
 
-API_KEY = os.getenv("SERPAPI_KEY")  # Load from .env
+API_KEY = os.getenv("SERPAPI_KEY")  # Make sure this is set in Vercel!
+
 BASE_URL = "https://serpapi.com/search.json"
 
-# Default airports (you can expand later or use your airports.json)
-US_AIRPORTS = ["JFK", "LAX", "ORD", "ATL", "DFW", "DEN", "SFO", "MIA", "SEA", "BOS"]
 
-
-def fetch_all_us_flights(days_ahead: int = 14, window: int = 14):
+def fetch_all_us_flights(
+    departure="JFK", 
+    arrival="LAX",
+    outbound_date=None,
+    return_date=None,
+    trip_type="1",   # 1 = round-trip, 2 = one-way
+    adults=1,
+    children=0,
+    infants=0,
+    max_price=None
+):
     """
-    Fetches flights between major US airports within a given time frame.
-    Example: From today+days_ahead until today+days_ahead+window
+    Fetch flights from SerpAPI Google Flights engine.
+    Allows specifying outbound_date and return_date.
     """
 
-    flights = []
+    params = {
+        "engine": "google_flights",
+        "departure_id": departure,
+        "arrival_id": arrival,
+        "currency": "USD",
+        "hl": "en",
+        "api_key": API_KEY,
+        "type": trip_type,
+        "adults": adults,
+        "children": children,
+        "infants_in_seat": infants,
+    }
 
-    outbound_date = (datetime.today() + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
-    return_date = (datetime.today() + timedelta(days=days_ahead + window)).strftime("%Y-%m-%d")
+    if outbound_date:
+        params["outbound_date"] = outbound_date
+    if return_date and trip_type == "1":  # only for round trip
+        params["return_date"] = return_date
+    if max_price:
+        params["max_price"] = max_price
 
-    for i, dep in enumerate(US_AIRPORTS):
-        for j, arr in enumerate(US_AIRPORTS):
-            if i == j:
-                continue  # skip same airport
-            params = {
-                "engine": "google_flights",
-                "departure_id": dep,
-                "arrival_id": arr,
-                "outbound_date": outbound_date,
-                "return_date": return_date,
-                "type": "2",  # round trip
-                "adults": "1",
-                "currency": "USD",
-                "hl": "en",
-                "api_key": API_KEY,
-            }
+    response = requests.get(BASE_URL, params=params)
 
-            print(f"Fetching {dep} -> {arr} ...")
-            response = requests.get(BASE_URL, params=params)
+    if response.status_code != 200:
+        raise Exception(f"API request failed: {response.text}")
 
-            if response.status_code == 200:
-                data = response.json()
-                flights.append(data)
-            else:
-                print(f"❌ Failed to fetch {dep}->{arr}: {response.status_code}")
-
-    return flights
+    return response.json()

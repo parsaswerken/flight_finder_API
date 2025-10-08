@@ -1,57 +1,50 @@
-# api_client.py
+# api/api_client.py
 import os
 import requests
 from datetime import datetime, timedelta
 
-# Load SerpAPI key from environment
-SERPAPI_KEY = os.getenv("SERPAPI_KEY")
+API_KEY = os.getenv("SERPAPI_KEY")  # Load from .env
+BASE_URL = "https://serpapi.com/search.json"
 
-def fetch_all_us_flights():
+# Default airports (you can expand later or use your airports.json)
+US_AIRPORTS = ["JFK", "LAX", "ORD", "ATL", "DFW", "DEN", "SFO", "MIA", "SEA", "BOS"]
+
+
+def fetch_all_us_flights(days_ahead: int = 14, window: int = 14):
     """
-    Fetch all domestic US flights for a rolling 2-week window.
-    Returns a list of dicts with standard fields.
+    Fetches flights between major US airports within a given time frame.
+    Example: From today+days_ahead until today+days_ahead+window
     """
-    if not SERPAPI_KEY:
-        raise ValueError("SERPAPI_KEY not set in environment")
-
-    today = datetime.today()
-    start_date = today.strftime("%Y-%m-%d")
-    end_date = (today + timedelta(days=14)).strftime("%Y-%m-%d")
-
-    url = "https://serpapi.com/search"
-    params = {
-        "engine": "google_flights",
-        "departure_id": "United States",   # all US departures
-        "arrival_id": "United States",     # all US arrivals
-        "currency": "USD",
-        "hl": "en",
-        "outbound_date": f"{start_date}:{end_date}",  # rolling 2 weeks
-        "return_date": f"{start_date}:{end_date}",
-        "api_key": SERPAPI_KEY,
-    }
-
-    response = requests.get(url, params=params)
-    response.raise_for_status()
-    data = response.json()
 
     flights = []
-    for flight in data.get("flights", []):
-        flights.append({
-            "departure": flight.get("departure_airport", {}).get("id", ""),
-            "destination": flight.get("arrival_airport", {}).get("id", ""),
-            "cost": flight.get("price", ""),
-            "duration": flight.get("duration", ""),
-            "tripType": "round" if flight.get("return") else "oneway",
-            "passengerType": "adult",  # default for now
-        })
+
+    outbound_date = (datetime.today() + timedelta(days=days_ahead)).strftime("%Y-%m-%d")
+    return_date = (datetime.today() + timedelta(days=days_ahead + window)).strftime("%Y-%m-%d")
+
+    for i, dep in enumerate(US_AIRPORTS):
+        for j, arr in enumerate(US_AIRPORTS):
+            if i == j:
+                continue  # skip same airport
+            params = {
+                "engine": "google_flights",
+                "departure_id": dep,
+                "arrival_id": arr,
+                "outbound_date": outbound_date,
+                "return_date": return_date,
+                "type": "2",  # round trip
+                "adults": "1",
+                "currency": "USD",
+                "hl": "en",
+                "api_key": API_KEY,
+            }
+
+            print(f"Fetching {dep} -> {arr} ...")
+            response = requests.get(BASE_URL, params=params)
+
+            if response.status_code == 200:
+                data = response.json()
+                flights.append(data)
+            else:
+                print(f"❌ Failed to fetch {dep}->{arr}: {response.status_code}")
 
     return flights
-
-# Simple test runner
-if __name__ == "__main__":
-    try:
-        flights = fetch_all_us_flights()
-        print(f"Retrieved {len(flights)} flights")
-        print(flights[:5])  # print first 5 sample flights
-    except Exception as e:
-        print("Error fetching flights:", e)

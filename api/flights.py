@@ -3,61 +3,81 @@ import json
 import time
 from api_client import fetch_all_us_flights
 
-# Cache file (stored in the same directory as flights.py)
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "flights_cache.json")
-CACHE_TTL = 24 * 3600  # 24 hours in seconds
+CACHE_TTL = 24 * 3600  # 24 hours
+
+
+def load_cache():
+    if not os.path.exists(CACHE_FILE):
+        return None
+    with open(CACHE_FILE, "r", encoding="utf-8") as f:
+        try:
+            return json.load(f)
+        except json.JSONDecodeError:
+            return None
+
+
+def save_cache(data):
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump({"timestamp": time.time(), "flights": data}, f)
 
 
 def is_cache_valid():
-    """Check if cache exists and is younger than 24h"""
-    return os.path.exists(CACHE_FILE) and (time.time() - os.path.getmtime(CACHE_FILE)) < CACHE_TTL
-
-
-def load_cached_flights():
-    """Load cached flights from file"""
-    with open(CACHE_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def save_cached_flights(data):
-    """Save flights to cache"""
-    with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-
-
-def get_flights():
-    """Return flights (from cache or API if expired)"""
-    if is_cache_valid():
-        print("Using cached flights")
-        return load_cached_flights()
-
-    print("🌍 Fetching fresh flights from SerpAPI...")
-    flights = fetch_all_us_flights(
-        # Example: fetch all flights in a 2-week window
-        outbound_date="2025-10-15",
-        return_date="2025-10-29"
-    )
-    save_cached_flights(flights)
-    return flights
-
-
-# 🔹 This is the entrypoint Vercel calls for /api/flights
-def handler(request):
+    if not os.path.exists(CACHE_FILE):
+        return False
     try:
-        flights = get_flights()
-        return {
-            "statusCode": 200,
-            "headers": {"Content-Type": "application/json"},
-            "body": json.dumps({"flights": flights})
-        }
-    except Exception as e:
-        return {
-            "statusCode": 500,
-            "body": json.dumps({"error": str(e)})
-        }
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return time.time() - data["timestamp"] < CACHE_TTL
+    except Exception:
+        return False
 
 
-# 🔹 Run locally with: python api/flights.py
-if __name__ == "__main__":
-    result = get_flights()
+def handler(request):
+    """Vercel API handler for /api/flights"""
 
+    params = request.args
+
+    # Read user filters from frontend (results.js)
+    departure = params.get("from")
+    arrival = params.get("to")
+    outbound = params.get("outbound")
+    inbound = params.get("inbound")
+    trip_type = params.get("tripType", "1")  # 1=round, 2=oneway
+    max_price = params.get("maxCost")
+    adults = int(params.get("adults", 1))
+    children = int(params.get("children", 0))
+    infants = int(params.get("infants", 0))
+
+    flights = None
+
+    # Decide whether to use cache or fetch fresh
+    if is_cache_valid():
+        print("✅ Using cached flights")
+        cached = load_cache()
+        if cached and "flights" in cached:
+            flights = cached["flights"]
+
+    if flights is None:
+        print("🌍 Fetching fresh flights from SerpAPI...")
+        flights = fetch_all_us_flights(
+            departure=departure,
+            arrival=arrival,
+            outbound_date=outbound,
+            return_date=inbound,
+            trip_type=trip_type,
+            adults=adults,
+            children=children,
+            infants=infants,
+            max_price=max_price,
+        )
+        save_cache(flights)
+
+    # Flatten response to best + other flights
+    all_flights = flights.get("best_flights", []) + flights.get("other_flights", [])
+
+    return {
+        "statusCode": 200,
+        "body": json.dumps({"flights": all_flights}),
+        "headers": {"Content-Type": "application/json"},
+    }

@@ -1,0 +1,2382 @@
+[
+  {
+    "IATA": "ABQ",
+    "AIRPORT": "Albuquerque International",
+    "CITY": "Albuquerque",
+    "STATE": "NM",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ANC",
+    "AIRPORT": "Ted Stevens Anchorage International",
+    "CITY": "Anchorage",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ATL",
+    "AIRPORT": "William B Hartsfield-Atlanta Intl",
+    "CITY": "Atlanta",
+    "STATE": "GA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "AUS",
+    "AIRPORT": "Austin-Bergstrom International",
+    "CITY": "Austin",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BDL",
+    "AIRPORT": "Bradley International",
+    "CITY": "Windsor Locks",
+    "STATE": "CT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BHM",
+    "AIRPORT": "Birmingham International",
+    "CITY": "Birmingham",
+    "STATE": "AL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BNA",
+    "AIRPORT": "Nashville International",
+    "CITY": "Nashville",
+    "STATE": "TN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BOS",
+    "AIRPORT": "Gen Edw L Logan Intl",
+    "CITY": "Boston",
+    "STATE": "MA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BUF",
+    "AIRPORT": "Buffalo Niagara Intl",
+    "CITY": "Buffalo",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BUR",
+    "AIRPORT": "Burbank-Glendale-Pasadena",
+    "CITY": "Burbank",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BWI",
+    "AIRPORT": "Baltimore-Washington International",
+    "CITY": "Baltimore",
+    "STATE": "MD",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CHS",
+    "AIRPORT": "Charleston AFB International",
+    "CITY": "Charleston",
+    "STATE": "SC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CLE",
+    "AIRPORT": "Cleveland-Hopkins Intl",
+    "CITY": "Cleveland",
+    "STATE": "OH",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CLT",
+    "AIRPORT": "Charlotte Douglas International",
+    "CITY": "Charlotte",
+    "STATE": "NC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CMH",
+    "AIRPORT": "Port Columbus Intl",
+    "CITY": "Columbus",
+    "STATE": "OH",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CVG",
+    "AIRPORT": "Cincinnati Northern Kentucky Intl",
+    "CITY": "Covington",
+    "STATE": "KY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DAL",
+    "AIRPORT": "Dallas Love ",
+    "CITY": "Dallas",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DCA",
+    "AIRPORT": "Ronald Reagan Washington National",
+    "CITY": "Arlington",
+    "STATE": "VA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DEN",
+    "AIRPORT": "Denver Intl",
+    "CITY": "Denver",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DFW",
+    "AIRPORT": "Dallas-Fort Worth International",
+    "CITY": "Dallas-Fort Worth",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DTW",
+    "AIRPORT": "Detroit Metropolitan-Wayne County",
+    "CITY": "Detroit",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ELP",
+    "AIRPORT": "El Paso International",
+    "CITY": "El Paso",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "EWR",
+    "AIRPORT": "Newark Intl",
+    "CITY": "Newark",
+    "STATE": "NJ",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FLL",
+    "AIRPORT": "Fort Lauderdale-Hollywood Int'l",
+    "CITY": "Ft. Lauderdale",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HNL",
+    "AIRPORT": "Honolulu International",
+    "CITY": "Honolulu",
+    "STATE": "HI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HOU",
+    "AIRPORT": "William P X",
+    "CITY": "Houston",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "IAD",
+    "AIRPORT": "Washington Dulles International",
+    "CITY": "Chantilly",
+    "STATE": "VA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "IAH",
+    "AIRPORT": "George Bush Intercontinental",
+    "CITY": "Houston",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "IND",
+    "AIRPORT": "Indianapolis International",
+    "CITY": "Indianapolis",
+    "STATE": "IN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "JAX",
+    "AIRPORT": "Jacksonville International",
+    "CITY": "Jacksonville",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "JFK",
+    "AIRPORT": "John F Kennedy Intl",
+    "CITY": "New York",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LAS",
+    "AIRPORT": "McCarran International",
+    "CITY": "Las Vegas",
+    "STATE": "NV",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LAX",
+    "AIRPORT": "Los Angeles International",
+    "CITY": "Los Angeles",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LGA",
+    "AIRPORT": "LaGuardia",
+    "CITY": "New York",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LIT",
+    "AIRPORT": "Adams ",
+    "CITY": "Little Rock",
+    "STATE": "AR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MCI",
+    "AIRPORT": "Kansas City International",
+    "CITY": "Kansas City",
+    "STATE": "MO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MCO",
+    "AIRPORT": "Orlando International",
+    "CITY": "Orlando",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MDW",
+    "AIRPORT": "Chicago Midway",
+    "CITY": "Chicago",
+    "STATE": "IL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MEM",
+    "AIRPORT": "Memphis International",
+    "CITY": "Memphis",
+    "STATE": "TN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MIA",
+    "AIRPORT": "Miami International",
+    "CITY": "Miami",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MKE",
+    "AIRPORT": "General Mitchell International",
+    "CITY": "Milwaukee",
+    "STATE": "WI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MSP",
+    "AIRPORT": "Minneapolis-St Paul Intl",
+    "CITY": "Minneapolis",
+    "STATE": "MN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MSY",
+    "AIRPORT": "New Orleans International ",
+    "CITY": "New Orleans",
+    "STATE": "LA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "OAK",
+    "AIRPORT": "Metropolitan Oakland International",
+    "CITY": "Oakland",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "OGG",
+    "AIRPORT": "Kahului",
+    "CITY": "Kahului",
+    "STATE": "HI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "OKC",
+    "AIRPORT": "Will Rogers World",
+    "CITY": "Oklahoma City",
+    "STATE": "OK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "OMA",
+    "AIRPORT": "Eppley Airfield",
+    "CITY": "Omaha",
+    "STATE": "NE",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ONT",
+    "AIRPORT": "Ontario International",
+    "CITY": "Ontario",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ORD",
+    "AIRPORT": "Chicago O'Hare International",
+    "CITY": "Chicago",
+    "STATE": "IL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ORF",
+    "AIRPORT": "Norfolk International",
+    "CITY": "Norfolk",
+    "STATE": "VA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PBI",
+    "AIRPORT": "Palm Beach International",
+    "CITY": "West Palm Beach",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PDX",
+    "AIRPORT": "Portland Intl",
+    "CITY": "Portland",
+    "STATE": "OR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PHL",
+    "AIRPORT": "Philadelphia Intl",
+    "CITY": "Philadelphia",
+    "STATE": "PA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PHX",
+    "AIRPORT": "Phoenix Sky Harbor International",
+    "CITY": "Phoenix",
+    "STATE": "AZ",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PIT",
+    "AIRPORT": "Pittsburgh International",
+    "CITY": "Pittsburgh",
+    "STATE": "PA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PVD",
+    "AIRPORT": "Theodore F Green State",
+    "CITY": "Providence",
+    "STATE": "RI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RDU",
+    "AIRPORT": "Raleigh-Durham International",
+    "CITY": "Raleigh",
+    "STATE": "NC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RIC",
+    "AIRPORT": "Richmond International",
+    "CITY": "Richmond",
+    "STATE": "VA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RNO",
+    "AIRPORT": "Reno Tahoe International",
+    "CITY": "Reno",
+    "STATE": "NV",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RSW",
+    "AIRPORT": "Southwest Florida International",
+    "CITY": "Ft. Myers",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SAN",
+    "AIRPORT": "San Diego International-Lindbergh ",
+    "CITY": "San Diego",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SAT",
+    "AIRPORT": "San Antonio International",
+    "CITY": "San Antonio",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SDF",
+    "AIRPORT": "Louisville International-Standiford ",
+    "CITY": "Louisville",
+    "STATE": "KY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SEA",
+    "AIRPORT": "Seattle-Tacoma Intl",
+    "CITY": "Seattle",
+    "STATE": "WA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SFO",
+    "AIRPORT": "San Francisco International",
+    "CITY": "San Francisco",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SJC",
+    "AIRPORT": "San Jose International",
+    "CITY": "San Jose",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SJU",
+    "AIRPORT": "Luis Munoz Marin International",
+    "CITY": "San Juan",
+    "STATE": "PR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SLC",
+    "AIRPORT": "Salt Lake City Intl",
+    "CITY": "Salt Lake City",
+    "STATE": "UT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SMF",
+    "AIRPORT": "Sacramento International",
+    "CITY": "Sacramento",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SNA",
+    "AIRPORT": "John Wayne  Orange Co",
+    "CITY": "Santa Ana",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "STL",
+    "AIRPORT": "Lambert-St Louis International",
+    "CITY": "St Louis",
+    "STATE": "MO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TPA",
+    "AIRPORT": "Tampa International ",
+    "CITY": "Tampa",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TUL",
+    "AIRPORT": "Tulsa International",
+    "CITY": "Tulsa",
+    "STATE": "OK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TUS",
+    "AIRPORT": "Tucson International",
+    "CITY": "Tucson",
+    "STATE": "AZ",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ABE",
+    "AIRPORT": "Lehigh Valley International",
+    "CITY": "Allentown",
+    "STATE": "PA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ABI",
+    "AIRPORT": "Abilene Regional",
+    "CITY": "Abilene",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ABR",
+    "AIRPORT": "Aberdeen Regional",
+    "CITY": "Aberdeen",
+    "STATE": "SD",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ABY",
+    "AIRPORT": "Southwest Georgia Regional",
+    "CITY": "Albany",
+    "STATE": "GA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ACK",
+    "AIRPORT": "Nantucket Memorial",
+    "CITY": "Nantucket",
+    "STATE": "MA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ACT",
+    "AIRPORT": "Waco Regional",
+    "CITY": "Waco",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ACV",
+    "AIRPORT": "Arcata",
+    "CITY": "Arcata Eureka",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ACY",
+    "AIRPORT": "Atlantic City International",
+    "CITY": "Atlantic City",
+    "STATE": "NJ",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ADK",
+    "AIRPORT": "Adak",
+    "CITY": "Adak",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ADQ",
+    "AIRPORT": "Kodiak ",
+    "CITY": "Kodiak",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "AEX",
+    "AIRPORT": "Alexandria International",
+    "CITY": "Alexandria",
+    "STATE": "LA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "AGS",
+    "AIRPORT": "Bush ",
+    "CITY": "Augusta",
+    "STATE": "GA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "AKN",
+    "AIRPORT": "King Salmon",
+    "CITY": "King Salmon",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ALB",
+    "AIRPORT": "Albany Cty",
+    "CITY": "Albany",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ALO",
+    "AIRPORT": "Waterloo Municipal",
+    "CITY": "Waterloo",
+    "STATE": "IA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "AMA",
+    "AIRPORT": "Amarillo International",
+    "CITY": "Amarillo",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "APN",
+    "AIRPORT": "Alpena County Regional ",
+    "CITY": "Alpena",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ART",
+    "AIRPORT": "Watertown Intl",
+    "CITY": "Watertown",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ASE",
+    "AIRPORT": "Aspen-Pitkin Co Sardy ",
+    "CITY": "Aspen",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ATW",
+    "AIRPORT": "Outagamie County Regional",
+    "CITY": "Appleton",
+    "STATE": "WI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "AVL",
+    "AIRPORT": "Asheville Regional",
+    "CITY": "Asheville",
+    "STATE": "NC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "AVP",
+    "AIRPORT": "Wilkes-Barre Scranton Intl",
+    "CITY": "Wilkes-Barre Scranton",
+    "STATE": "PA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "AZO",
+    "AIRPORT": "Kalamazoo County",
+    "CITY": "Kalamazoo",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BET",
+    "AIRPORT": "Bethel",
+    "CITY": "Bethel",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BFL",
+    "AIRPORT": "Meadows ",
+    "CITY": "Bakersfield",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BGM",
+    "AIRPORT": "Binghamton Regional",
+    "CITY": "Binghamton",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BGR",
+    "AIRPORT": "Bangor International",
+    "CITY": "Bangor",
+    "STATE": "ME",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BIL",
+    "AIRPORT": "Billings Logan Intl",
+    "CITY": "Billings",
+    "STATE": "MT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BIS",
+    "AIRPORT": "Bismarck Municipal",
+    "CITY": "Bismarck",
+    "STATE": "ND",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BJI",
+    "AIRPORT": "Bemidji-Beltrami County",
+    "CITY": "Bemidji",
+    "STATE": "MN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BLI",
+    "AIRPORT": "Bellingham Intl",
+    "CITY": "Bellingham",
+    "STATE": "WA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BMI",
+    "AIRPORT": "Central Illinois Regional",
+    "CITY": "Bloomington",
+    "STATE": "IL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BOI",
+    "AIRPORT": "Boise Air Terminal",
+    "CITY": "Boise",
+    "STATE": "ID",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BPT",
+    "AIRPORT": "Southeast Texas Regional",
+    "CITY": "Beaumont Port Arthur",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BQK",
+    "AIRPORT": "Glynco Jetport",
+    "CITY": "Brunswick",
+    "STATE": "GA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BQN",
+    "AIRPORT": "Rafael Hernandez",
+    "CITY": "Aguadilla",
+    "STATE": "PR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BRD",
+    "AIRPORT": "Brainerd-Crow Wing County Regional",
+    "CITY": "Brainerd",
+    "STATE": "MN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BRO",
+    "AIRPORT": "Brownsville S.Padre Island International",
+    "CITY": "Brownsville",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BRW",
+    "AIRPORT": "Wiley Post Will Rogers Memorial",
+    "CITY": "Barrow",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BTM",
+    "AIRPORT": "Bert Mooney",
+    "CITY": "Butte",
+    "STATE": "MT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BTR",
+    "AIRPORT": "Baton Rouge Metropolitan",
+    "CITY": "Baton Rouge",
+    "STATE": "LA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BTV",
+    "AIRPORT": "Burlington International",
+    "CITY": "Burlington",
+    "STATE": "VT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "BZN",
+    "AIRPORT": "Gallatin ",
+    "CITY": "Bozeman",
+    "STATE": "MT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CAE",
+    "AIRPORT": "Columbia Metropolitan",
+    "CITY": "Columbia",
+    "STATE": "SC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CAK",
+    "AIRPORT": "Akron-Canton Regional",
+    "CITY": "Akron",
+    "STATE": "OH",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CDC",
+    "AIRPORT": "Cedar City Muni",
+    "CITY": "Cedar City",
+    "STATE": "UT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CDV",
+    "AIRPORT": "Merle K (Mudhole) Smith",
+    "CITY": "Cordova",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CEC",
+    "AIRPORT": "Jack McNamara ",
+    "CITY": "Crescent City",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CHA",
+    "AIRPORT": "Lovell ",
+    "CITY": "Chattanooga",
+    "STATE": "TN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CHO",
+    "AIRPORT": "Charlottesville-Albermarle",
+    "CITY": "Charlottesville",
+    "STATE": "VA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CIC",
+    "AIRPORT": "Chico Municipal",
+    "CITY": "Chico",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CID",
+    "AIRPORT": "Eastern Iowa ",
+    "CITY": "Cedar Rapids",
+    "STATE": "IA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CIU",
+    "AIRPORT": "Chippewa County International",
+    "CITY": "Sault Ste. Marie",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CLD",
+    "AIRPORT": "MCClellan-Palomar Airport",
+    "CITY": "Carlsbad",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CLL",
+    "AIRPORT": "Easterwood ",
+    "CITY": "College Station",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CMI",
+    "AIRPORT": "University of Illinois-Willard",
+    "CITY": "Champaign Urbana",
+    "STATE": "IL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CMX",
+    "AIRPORT": "Houghton County Memorial",
+    "CITY": "Hancock",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CNY",
+    "AIRPORT": "Canyonlands ",
+    "CITY": "Moab",
+    "STATE": "UT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "COD",
+    "AIRPORT": "Yellowstone Regional",
+    "CITY": "Cody",
+    "STATE": "WY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "COS",
+    "AIRPORT": "City of Colorado Springs Muni",
+    "CITY": "Colorado Springs",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "COU",
+    "AIRPORT": "Columbia Regional",
+    "CITY": "Columbia",
+    "STATE": "MO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CPR",
+    "AIRPORT": "Natrona County Intl",
+    "CITY": "Casper",
+    "STATE": "WY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CRP",
+    "AIRPORT": "Corpus Christi International",
+    "CITY": "Corpus Christi",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CRW",
+    "AIRPORT": "Yeager",
+    "CITY": "Charleston",
+    "STATE": "WV",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CSG",
+    "AIRPORT": "Columbus Metropolitan",
+    "CITY": "Columbus",
+    "STATE": "GA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CWA",
+    "AIRPORT": "Central Wisconsin",
+    "CITY": "Mosinee",
+    "STATE": "WI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "CYS",
+    "AIRPORT": "Cheyenne",
+    "CITY": "Cheyenne",
+    "STATE": "WY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DAB",
+    "AIRPORT": "Daytona Beach International",
+    "CITY": "Daytona Beach",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DAY",
+    "AIRPORT": "James M Cox Dayton Intl",
+    "CITY": "Dayton",
+    "STATE": "OH",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DBQ",
+    "AIRPORT": "Dubuque Municipal",
+    "CITY": "Dubuque",
+    "STATE": "IA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DHN",
+    "AIRPORT": "Dothan ",
+    "CITY": "Dothan",
+    "STATE": "AL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DIK",
+    "AIRPORT": "Dickinson Municipal",
+    "CITY": "Dickinson",
+    "STATE": "ND",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DLG",
+    "AIRPORT": "Dillingham",
+    "CITY": "Dillingham",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DLH",
+    "AIRPORT": "Duluth International",
+    "CITY": "Duluth",
+    "STATE": "MN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DRO",
+    "AIRPORT": "Durango-La Plata County",
+    "CITY": "Durango",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DRT",
+    "AIRPORT": "Del Rio International",
+    "CITY": "Del Rio",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DSM",
+    "AIRPORT": "Des Moines International",
+    "CITY": "Des Moines",
+    "STATE": "IA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "DVL",
+    "AIRPORT": "Devils Lake Municipal-Knoke ",
+    "CITY": "Devils Lake",
+    "STATE": "ND",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "EAU",
+    "AIRPORT": "Chippewa Valley Regional",
+    "CITY": "Eau Claire",
+    "STATE": "WI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "EGE",
+    "AIRPORT": "Eagle County Regional",
+    "CITY": "Eagle",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "EKO",
+    "AIRPORT": "Elko Regional",
+    "CITY": "Elko",
+    "STATE": "NV",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ELM",
+    "AIRPORT": "Elmira Corning Regional",
+    "CITY": "Elmira",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ERI",
+    "AIRPORT": "Erie Intl",
+    "CITY": "Erie",
+    "STATE": "PA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ESC",
+    "AIRPORT": "Delta County",
+    "CITY": "Escanaba",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "EUG",
+    "AIRPORT": "Mahlon Sweet ",
+    "CITY": "Eugene",
+    "STATE": "OR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "EVV",
+    "AIRPORT": "Evansville Regional",
+    "CITY": "Evansville",
+    "STATE": "IN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "EWN",
+    "AIRPORT": "Craven County Regional",
+    "CITY": "New Bern",
+    "STATE": "NC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "EYW",
+    "AIRPORT": "Key West International",
+    "CITY": "Key West",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FAI",
+    "AIRPORT": "Fairbanks International",
+    "CITY": "Fairbanks",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FAR",
+    "AIRPORT": "Hector International",
+    "CITY": "Fargo",
+    "STATE": "ND",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FAT",
+    "AIRPORT": "Fresno Yosemite International",
+    "CITY": "Fresno",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FAY",
+    "AIRPORT": "Fayetteville Municipal",
+    "CITY": "Fayetteville",
+    "STATE": "NC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FCA",
+    "AIRPORT": "Glacier Park Intl",
+    "CITY": "Kalispell",
+    "STATE": "MT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FLG",
+    "AIRPORT": "Flagstaff Pulliam",
+    "CITY": "Flagstaff",
+    "STATE": "AZ",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FLO",
+    "AIRPORT": "Florence Regional",
+    "CITY": "Florence",
+    "STATE": "SC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FNT",
+    "AIRPORT": "Bishop",
+    "CITY": "Flint",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FOE",
+    "AIRPORT": "Forbes ",
+    "CITY": "Topeka",
+    "STATE": "KS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FSD",
+    "AIRPORT": "Joe Foss ",
+    "CITY": "Sioux Falls",
+    "STATE": "SD",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FSM",
+    "AIRPORT": "Fort Smith Regional",
+    "CITY": "Fort Smith",
+    "STATE": "AR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "FWA",
+    "AIRPORT": "Fort Wayne International",
+    "CITY": "Fort Wayne",
+    "STATE": "IN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GCC",
+    "AIRPORT": "Gillette-Campbell County",
+    "CITY": "Gillette",
+    "STATE": "WY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GCK",
+    "AIRPORT": "Garden City Regional",
+    "CITY": "Garden City",
+    "STATE": "KS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GEG",
+    "AIRPORT": "Spokane Intl",
+    "CITY": "Spokane",
+    "STATE": "WA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GFK",
+    "AIRPORT": "Grand Forks International",
+    "CITY": "Grand Forks",
+    "STATE": "ND",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GGG",
+    "AIRPORT": "Gregg County",
+    "CITY": "Longview",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GJT",
+    "AIRPORT": "Walker ",
+    "CITY": "Grand Junction",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GNV",
+    "AIRPORT": "Gainesville Regional",
+    "CITY": "Gainesville",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GPT",
+    "AIRPORT": "Gulfport-Biloxi Regional",
+    "CITY": "Gulfport-Biloxi",
+    "STATE": "MS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GRB",
+    "AIRPORT": "Austin Straubel International",
+    "CITY": "Green Bay",
+    "STATE": "WI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GRI",
+    "AIRPORT": "Central Nebraska Regional ",
+    "CITY": "Grand Island",
+    "STATE": "NE",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GRK",
+    "AIRPORT": "Robert Gray AAF",
+    "CITY": "Killeen",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GRR",
+    "AIRPORT": "Kent County International",
+    "CITY": "Grand Rapids",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GSO",
+    "AIRPORT": "Piedmont Triad International",
+    "CITY": "Greensboro",
+    "STATE": "NC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GSP",
+    "AIRPORT": "Greenville-Spartanburg",
+    "CITY": "Greer",
+    "STATE": "SC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GST",
+    "AIRPORT": "Gustavus",
+    "CITY": "Gustavus",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GTF",
+    "AIRPORT": "Great Falls Intl",
+    "CITY": "Great Falls",
+    "STATE": "MT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GTR",
+    "AIRPORT": "Golden Triangle Regional",
+    "CITY": "Columbus-Starkville-West Point",
+    "STATE": "MS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GUC",
+    "AIRPORT": "Gunnison County",
+    "CITY": "Gunnison",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "GUM",
+    "AIRPORT": "Guam International",
+    "CITY": "Agana",
+    "STATE": "GU",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HDN",
+    "AIRPORT": "Yampa Valley",
+    "CITY": "Hayden",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HIB",
+    "AIRPORT": "Chisholm-Hibbing",
+    "CITY": "Hibbing",
+    "STATE": "MN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HLN",
+    "AIRPORT": "Helena Regional",
+    "CITY": "Helena",
+    "STATE": "MT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HOB",
+    "AIRPORT": "Lea County Regional",
+    "CITY": "Hobbs",
+    "STATE": "NM",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HPN",
+    "AIRPORT": "Westchester Cty",
+    "CITY": "White Plains",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HRL",
+    "AIRPORT": "Valley International",
+    "CITY": "Harlingen",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HSV",
+    "AIRPORT": "Huntsville International ",
+    "CITY": "Huntsville",
+    "STATE": "AL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HTS",
+    "AIRPORT": "Tri-State Walker-Long ",
+    "CITY": "Huntington",
+    "STATE": "WV",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HYA",
+    "AIRPORT": "Barnstable Mun Boardman Polando ",
+    "CITY": "Hyannis",
+    "STATE": "MA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "HYS",
+    "AIRPORT": "Hays Municipal",
+    "CITY": "Hays",
+    "STATE": "KS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ICT",
+    "AIRPORT": "Wichita Mid-Continent",
+    "CITY": "Wichita",
+    "STATE": "KS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "IDA",
+    "AIRPORT": "Idaho Falls Regional",
+    "CITY": "Idaho Falls",
+    "STATE": "ID",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ILG",
+    "AIRPORT": "New Castle County ",
+    "CITY": "Wilmington",
+    "STATE": "DE",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ILM",
+    "AIRPORT": "Wilmington International",
+    "CITY": "Wilmington",
+    "STATE": "NC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "IMT",
+    "AIRPORT": "Ford",
+    "CITY": "Iron Mountain Kingsford",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "INL",
+    "AIRPORT": "Falls International",
+    "CITY": "International Falls",
+    "STATE": "MN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "IPL",
+    "AIRPORT": "Imperial County",
+    "CITY": "Imperial",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ISN",
+    "AIRPORT": "Sloulin Field International",
+    "CITY": "Williston",
+    "STATE": "ND",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ISP",
+    "AIRPORT": "Long Island - MacArthur",
+    "CITY": "Islip",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ITH",
+    "AIRPORT": "Tompkins Cty ",
+    "CITY": "Ithaca",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ITO",
+    "AIRPORT": "Hilo International",
+    "CITY": "Hilo",
+    "STATE": "HI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "IYK",
+    "AIRPORT": "Inyokern",
+    "CITY": "Inyokern",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "JAC",
+    "AIRPORT": "Jackson Hole",
+    "CITY": "Jackson",
+    "STATE": "WY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "JAN",
+    "AIRPORT": "Jackson International",
+    "CITY": "Jackson",
+    "STATE": "MS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "JLN",
+    "AIRPORT": "Joplin Regional",
+    "CITY": "Joplin",
+    "STATE": "MO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "JMS",
+    "AIRPORT": "Jamestown Municipal",
+    "CITY": "Jamestown",
+    "STATE": "ND",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "JNU",
+    "AIRPORT": "Juneau International",
+    "CITY": "Juneau",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "KOA",
+    "AIRPORT": "Kona International At Keahole",
+    "CITY": "Kailua Kona",
+    "STATE": "HI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "KTN",
+    "AIRPORT": "Ketchikan International",
+    "CITY": "Ketchikan",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LAN",
+    "AIRPORT": "Capital City",
+    "CITY": "Lansing",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LAR",
+    "AIRPORT": "Laramie Regional",
+    "CITY": "Laramie",
+    "STATE": "WY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LAW",
+    "AIRPORT": "Lawton-Ft Sill Regional",
+    "CITY": "Lawton",
+    "STATE": "OK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LBB",
+    "AIRPORT": "Lubbock International",
+    "CITY": "Lubbock",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LCH",
+    "AIRPORT": "Lake Charles Regional",
+    "CITY": "Lake Charles",
+    "STATE": "LA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LEX",
+    "AIRPORT": "Blue Grass ",
+    "CITY": "Lexington",
+    "STATE": "KY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LFT",
+    "AIRPORT": "Lafayette Regional",
+    "CITY": "Lafayette",
+    "STATE": "LA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LGB",
+    "AIRPORT": "Long Beach (Daugherty )",
+    "CITY": "Long Beach",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LIH",
+    "AIRPORT": "Lihue",
+    "CITY": "Lihue",
+    "STATE": "HI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LMT",
+    "AIRPORT": "Klamath Falls International",
+    "CITY": "Klamath Falls",
+    "STATE": "OR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LNK",
+    "AIRPORT": "Lincoln Municipal",
+    "CITY": "Lincoln",
+    "STATE": "NE",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LRD",
+    "AIRPORT": "Laredo International",
+    "CITY": "Laredo",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LSE",
+    "AIRPORT": "La Crosse Municipal",
+    "CITY": "La Crosse",
+    "STATE": "WI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LWB",
+    "AIRPORT": "Greenbrier Valley",
+    "CITY": "Lewisburg",
+    "STATE": "WV",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LWS",
+    "AIRPORT": "Lewiston-Nez Perce County",
+    "CITY": "Lewiston",
+    "STATE": "ID",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "LYH",
+    "AIRPORT": "Lynchburg Municipal-Preston Glenn ",
+    "CITY": "Lynchburg",
+    "STATE": "VA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MAF",
+    "AIRPORT": "Midland International",
+    "CITY": "Midland",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MBS",
+    "AIRPORT": "Mbs International",
+    "CITY": "Saginaw",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MCN",
+    "AIRPORT": "Middle Georgia Regional",
+    "CITY": "Macon",
+    "STATE": "GA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MDT",
+    "AIRPORT": "Harrisburg Intl",
+    "CITY": "Harrisburg",
+    "STATE": "PA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MEI",
+    "AIRPORT": "Key ",
+    "CITY": "Meridian",
+    "STATE": "MS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MFE",
+    "AIRPORT": "McAllen Miller International",
+    "CITY": "McAllen",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MFR",
+    "AIRPORT": "Rogue Valley International",
+    "CITY": "Medford",
+    "STATE": "OR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MGM",
+    "AIRPORT": "Montgomery Regional Apt",
+    "CITY": "Montgomery",
+    "STATE": "AL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MHK",
+    "AIRPORT": "Manhattan Regional",
+    "CITY": "Manhattan",
+    "STATE": "KS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MHT",
+    "AIRPORT": "Manchester",
+    "CITY": "Manchester",
+    "STATE": "NH",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MKG",
+    "AIRPORT": "Muskegon County",
+    "CITY": "Muskegon",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MLB",
+    "AIRPORT": "Melbourne International ",
+    "CITY": "Melbourne",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MLI",
+    "AIRPORT": "Quad City",
+    "CITY": "Moline",
+    "STATE": "IL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MLU",
+    "AIRPORT": "Monroe Regional",
+    "CITY": "Monroe",
+    "STATE": "LA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MMH",
+    "AIRPORT": "Mammoth Yosemite",
+    "CITY": "Mammoth Lakes",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MOB",
+    "AIRPORT": "Mobile Regional",
+    "CITY": "Mobile",
+    "STATE": "AL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MOD",
+    "AIRPORT": "Modesto City-County-Harry Sham ",
+    "CITY": "Modesto",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MOT",
+    "AIRPORT": "Minot International",
+    "CITY": "Minot",
+    "STATE": "ND",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MQT",
+    "AIRPORT": "Marquette County Airport",
+    "CITY": "Negaunee Township",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MRY",
+    "AIRPORT": "Monterey Peninsula",
+    "CITY": "Monterey",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MSN",
+    "AIRPORT": "Dane County Regional",
+    "CITY": "Madison",
+    "STATE": "WI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MSO",
+    "AIRPORT": "Missoula International",
+    "CITY": "Missoula",
+    "STATE": "MT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MTJ",
+    "AIRPORT": "Montrose Regional",
+    "CITY": "Montrose",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MVY",
+    "AIRPORT": "Marthas Vineyard",
+    "CITY": "Marthas Vineyard",
+    "STATE": "MA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MWH",
+    "AIRPORT": "Grant County",
+    "CITY": "Moses Lake",
+    "STATE": "WA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "MYR",
+    "AIRPORT": "Myrtle Beach International",
+    "CITY": "Myrtle Beach",
+    "STATE": "SC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "OAJ",
+    "AIRPORT": "Albert J Ellis",
+    "CITY": "Jacksonville",
+    "STATE": "NC",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "OME",
+    "AIRPORT": "Nome",
+    "CITY": "Nome",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ORH",
+    "AIRPORT": "Worcester Regional",
+    "CITY": "Worcester",
+    "STATE": "MA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "OTH",
+    "AIRPORT": "North Bend Muni",
+    "CITY": "North Bend",
+    "STATE": "OR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "OTZ",
+    "AIRPORT": "Ralph Wien Memorial",
+    "CITY": "Kotzebue",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "OXR",
+    "AIRPORT": "Oxnard",
+    "CITY": "Oxnard",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PAH",
+    "AIRPORT": "Barkley Regional",
+    "CITY": "Paducah",
+    "STATE": "KY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PFN",
+    "AIRPORT": "Panama City-Bay County International",
+    "CITY": "Panama City",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PHF",
+    "AIRPORT": "Newport News Williamsburg International",
+    "CITY": "Newport News",
+    "STATE": "VA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PIA",
+    "AIRPORT": "Greater Peoria Regional",
+    "CITY": "Peoria",
+    "STATE": "IL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PIB",
+    "AIRPORT": "Hattiesburg-Laurel Regional",
+    "CITY": "Hattiesburg-Laurel",
+    "STATE": "MS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PIE",
+    "AIRPORT": "St. Petersburg-Clearwater International",
+    "CITY": "St. Petersburg",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PIH",
+    "AIRPORT": "Pocatello Regional",
+    "CITY": "Pocatello",
+    "STATE": "ID",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PIR",
+    "AIRPORT": "Pierre Regional",
+    "CITY": "Pierre",
+    "STATE": "SD",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PLN",
+    "AIRPORT": "Pellston Regional  of Emmet County",
+    "CITY": "Pellston",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PNS",
+    "AIRPORT": "Pensacola Regional",
+    "CITY": "Pensacola",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PPG",
+    "AIRPORT": "Pago Pago International",
+    "CITY": "Pago Pago",
+    "STATE": "AS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PSC",
+    "AIRPORT": "Tri-Cities",
+    "CITY": "Pasco",
+    "STATE": "WA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PSE",
+    "AIRPORT": "Mercedita",
+    "CITY": "Ponce",
+    "STATE": "PR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PSG",
+    "AIRPORT": "James C. Johnson Petersburg",
+    "CITY": "Petersburg",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PSP",
+    "AIRPORT": "Palm Springs International",
+    "CITY": "Palm Springs",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PUB",
+    "AIRPORT": "Pueblo Memorial",
+    "CITY": "Pueblo",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "PWM",
+    "AIRPORT": "Portland International Jetport",
+    "CITY": "Portland",
+    "STATE": "ME",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RAP",
+    "AIRPORT": "Rapid City Regional",
+    "CITY": "Rapid City",
+    "STATE": "SD",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RDD",
+    "AIRPORT": "Redding Municipal",
+    "CITY": "Redding",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RDM",
+    "AIRPORT": "Roberts ",
+    "CITY": "Redmond",
+    "STATE": "OR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RFD",
+    "AIRPORT": "Greater Rockford",
+    "CITY": "Rockford",
+    "STATE": "IL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RHI",
+    "AIRPORT": "Rhinelander-Oneida County",
+    "CITY": "Rhinelander",
+    "STATE": "WI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RKS",
+    "AIRPORT": "Rock Springs-Sweetwater County",
+    "CITY": "Rock Springs",
+    "STATE": "WY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ROA",
+    "AIRPORT": "Roanoke Regional  Woodrum ",
+    "CITY": "Roanoke",
+    "STATE": "VA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ROC",
+    "AIRPORT": "Greater Rochester Int'l",
+    "CITY": "Rochester",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "ROW",
+    "AIRPORT": "Roswell Industrial Air Center",
+    "CITY": "Roswell",
+    "STATE": "NM",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "RST",
+    "AIRPORT": "Rochester International",
+    "CITY": "Rochester",
+    "STATE": "MN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SAF",
+    "AIRPORT": "Santa Fe Municipal",
+    "CITY": "Santa Fe",
+    "STATE": "NM",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SAV",
+    "AIRPORT": "Savannah International",
+    "CITY": "Savannah",
+    "STATE": "GA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SBA",
+    "AIRPORT": "Santa Barbara Municipal",
+    "CITY": "Santa Barbara",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SBN",
+    "AIRPORT": "South Bend Regional",
+    "CITY": "South Bend",
+    "STATE": "IN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SBP",
+    "AIRPORT": "San Luis Obispo Co-McChesney ",
+    "CITY": "San Luis Obispo",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SCC",
+    "AIRPORT": "Deadhorse",
+    "CITY": "Deadhorse",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SCE",
+    "AIRPORT": "State College Regional Airport",
+    "CITY": "Benner Township",
+    "STATE": "PA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SGF",
+    "AIRPORT": "Springfield-Branson Regional",
+    "CITY": "Springfield",
+    "STATE": "MO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SGU",
+    "AIRPORT": "St George Muni",
+    "CITY": "St George",
+    "STATE": "UT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SHD",
+    "AIRPORT": "Shenandoah Valley Regional",
+    "CITY": "Staunton Harrisonburg",
+    "STATE": "VA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SHV",
+    "AIRPORT": "Shreveport Regional",
+    "CITY": "Shreveport",
+    "STATE": "LA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SIT",
+    "AIRPORT": "Sitka",
+    "CITY": "Sitka",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SJT",
+    "AIRPORT": "San Angelo Regional  Mathis ",
+    "CITY": "San Angelo",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SMX",
+    "AIRPORT": "Santa Maria Pub Capt G Allan Hancock ",
+    "CITY": "Santa Maria",
+    "STATE": "CA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SPI",
+    "AIRPORT": "Capital",
+    "CITY": "Springfield",
+    "STATE": "IL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SPS",
+    "AIRPORT": "Sheppard AFB Wichita Falls Municipal",
+    "CITY": "Wichita Falls",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SRQ",
+    "AIRPORT": "Sarasota Bradenton International",
+    "CITY": "Sarasota",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "STC",
+    "AIRPORT": "St Cloud Regional",
+    "CITY": "St Cloud",
+    "STATE": "MN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "STT",
+    "AIRPORT": "Cyril E. King",
+    "CITY": "Charlotte Amalie",
+    "STATE": "VI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "STX",
+    "AIRPORT": "Henry E. Rohlsen ",
+    "CITY": "Christiansted",
+    "STATE": "VI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SUN",
+    "AIRPORT": "Friedman Memorial",
+    "CITY": "Hailey",
+    "STATE": "ID",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SUX",
+    "AIRPORT": "Sioux Gateway ",
+    "CITY": "Sioux City",
+    "STATE": "IA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SWF",
+    "AIRPORT": "Stewart",
+    "CITY": "Newburgh",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "SYR",
+    "AIRPORT": "Syracuse-Hancock Intl",
+    "CITY": "Syracuse",
+    "STATE": "NY",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TEX",
+    "AIRPORT": "Telluride Regional",
+    "CITY": "Telluride",
+    "STATE": "CO",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TLH",
+    "AIRPORT": "Tallahassee Regional",
+    "CITY": "Tallahassee",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TOL",
+    "AIRPORT": "Toledo Express",
+    "CITY": "Toledo",
+    "STATE": "OH",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TRI",
+    "AIRPORT": "Tri-Cities Regional",
+    "CITY": "Bristol",
+    "STATE": "TN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TTN",
+    "AIRPORT": "Trenton-Mercer County ",
+    "CITY": "Trenton",
+    "STATE": "NJ",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TUP",
+    "AIRPORT": "Tupelo Municipal ",
+    "CITY": "Tupelo",
+    "STATE": "MS",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TVC",
+    "AIRPORT": "Cherry Capital",
+    "CITY": "Traverse City",
+    "STATE": "MI",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TWF",
+    "AIRPORT": "Joslin Field - Magic Valley",
+    "CITY": "Twin Falls",
+    "STATE": "ID",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TXK",
+    "AIRPORT": "Texarkana Regional-Webb ",
+    "CITY": "Texarkana",
+    "STATE": "AR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TYR",
+    "AIRPORT": "Tyler Pounds ",
+    "CITY": "Tyler",
+    "STATE": "TX",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "TYS",
+    "AIRPORT": "McGhee-Tyson",
+    "CITY": "Knoxville",
+    "STATE": "TN",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "VEL",
+    "AIRPORT": "Vernal",
+    "CITY": "Vernal",
+    "STATE": "UT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "VLD",
+    "AIRPORT": "Valdosta Regional",
+    "CITY": "Valdosta",
+    "STATE": "GA",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "VPS",
+    "AIRPORT": "Eglin Air Force Base",
+    "CITY": "Valparaiso",
+    "STATE": "FL",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "WRG",
+    "AIRPORT": "Wrangell",
+    "CITY": "Wrangell",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "WYS",
+    "AIRPORT": "Yellowstone",
+    "CITY": "West Yellowstone",
+    "STATE": "MT",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "XNA",
+    "AIRPORT": "Northwest Arkansas Regional",
+    "CITY": "Fayetteville Springdale Rogers",
+    "STATE": "AR",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "YAK",
+    "AIRPORT": "Yakutat",
+    "CITY": "Yakutat",
+    "STATE": "AK",
+    "COUNTRY": "USA"
+  },
+  {
+    "IATA": "YUM",
+    "AIRPORT": "Yuma MCAS-Yuma International",
+    "CITY": "Yuma",
+    "STATE": "AZ",
+    "COUNTRY": "USA"
+  }
+]

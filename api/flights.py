@@ -2,6 +2,7 @@ import os
 import json
 import time
 from api_client import fetch_all_us_flights
+from .api_client import fetch_all_us_flights
 
 # Cache file (stored in the same directory as flights.py)
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "flights_cache.json")

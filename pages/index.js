@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
-import airports from "../data/airports.json";
+import airports from "../publicairports.json";
 
 export default function Home() {
   const router = useRouter();

@@ -1,29 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import airports from "../publicairports.json";
 
 export default function Home() {
   const router = useRouter();
+  const [airports, setAirports] = useState([]);
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [tripType, setTripType] = useState("round");
   const [maxCost, setMaxCost] = useState("");
 
-  // filter airports list for suggestions
-  const filterAirports = (input) => {
-    if (!input) return [];
-    return airports
-      .filter((a) =>
-        (a.CITY + " " + a.IATA + " " + a.AIRPORT)
-          .toLowerCase()
-          .includes(input.toLowerCase())
-      )
-      .slice(0, 10); // limit suggestions
-  };
+  useEffect(() => {
+    fetch("/airports.json")
+      .then((res) => res.json())
+      .then((data) => setAirports(data));
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // redirect with filters as query params
     router.push(
       `/results?from=${from}&to=${to}&tripType=${tripType}&maxCost=${maxCost}`
     );
@@ -33,42 +26,35 @@ export default function Home() {
     <div style={{ padding: "2rem" }}>
       <h1>Flight Finder</h1>
       <form onSubmit={handleSubmit}>
-        {/* FROM AIRPORT INPUT */}
         <input
-          list="fromOptions"
-          placeholder="From Airport"
+          placeholder="From City"
           value={from}
           onChange={(e) => setFrom(e.target.value)}
+          list="from-airports"
         />
-        <datalist id="fromOptions">
-          {filterAirports(from).map((a, i) => (
-            <option key={i} value={`${a.CITY} (${a.IATA}) - ${a.AIRPORT}`} />
+        <datalist id="from-airports">
+          {airports.map((airport, idx) => (
+            <option key={idx} value={airport.CITY} />
           ))}
         </datalist>
 
-        {/* TO AIRPORT INPUT */}
         <input
-          list="toOptions"
-          placeholder="To Airport"
+          placeholder="To City"
           value={to}
           onChange={(e) => setTo(e.target.value)}
+          list="to-airports"
         />
-        <datalist id="toOptions">
-          {filterAirports(to).map((a, i) => (
-            <option key={i} value={`${a.CITY} (${a.IATA}) - ${a.AIRPORT}`} />
+        <datalist id="to-airports">
+          {airports.map((airport, idx) => (
+            <option key={idx} value={airport.CITY} />
           ))}
         </datalist>
 
-        {/* TRIP TYPE */}
-        <select
-          value={tripType}
-          onChange={(e) => setTripType(e.target.value)}
-        >
+        <select value={tripType} onChange={(e) => setTripType(e.target.value)}>
           <option value="round">Round Trip</option>
           <option value="oneway">One Way</option>
         </select>
 
-        {/* MAX COST */}
         <input
           type="number"
           placeholder="Max Cost"

@@ -3,57 +3,53 @@ import { useEffect, useState } from "react";
 
 export default function Results() {
   const router = useRouter();
-  const { from, to, tripType, maxCost } = router.query;
+  const { from, to, tripType, maxCost, outbound, inbound, adults, children, infants } = router.query;
+
   const [flights, setFlights] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!router.isReady) return;
+    if (!from || !to) return;
 
-    const fetchFlights = async () => {
+    async function fetchFlights() {
+      setLoading(true);
+
       try {
-        const res = await fetch("/api/flights");
+        const res = await fetch(
+          `/api/flights?from=${from}&to=${to}&tripType=${tripType || "1"}&maxCost=${maxCost || ""}&outbound=${outbound || ""}&inbound=${inbound || ""}&adults=${adults || 1}&children=${children || 0}&infants=${infants || 0}`
+        );
+
         const data = await res.json();
-
-        // apply filters client-side
-        const filtered = data.flights.filter((f) => {
-          return (
-            (!from || f.from.toLowerCase().includes(from.toLowerCase())) &&
-            (!to || f.to.toLowerCase().includes(to.toLowerCase())) &&
-            (!tripType || f.type === tripType) &&
-            (!maxCost || f.cost <= parseInt(maxCost))
-          );
-        });
-
-        setFlights(filtered);
+        setFlights(data.flights || []);
       } catch (err) {
-        console.error(err);
-      } finally {
-        setLoading(false);
+        console.error("Error fetching flights:", err);
       }
-    };
+
+      setLoading(false);
+    }
 
     fetchFlights();
-  }, [router.isReady, from, to, tripType, maxCost]);
-
-  if (loading) return <p>Loading flights...</p>;
+  }, [from, to, tripType, maxCost, outbound, inbound, adults, children, infants]);
 
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>Available Flights</h1>
-      <p>Filters: From {from} → To {to} | {tripType} | Max ${maxCost}</p>
+      <h1>Flight Results</h1>
+      <p>
+        From: {from} → To: {to} <br />
+        Trip Type: {tripType} | Outbound: {outbound} | Inbound: {inbound}
+      </p>
 
-      {flights.length === 0 ? (
-        <p>No flights found.</p>
-      ) : (
-        <ul>
-          {flights.map((f, i) => (
-            <li key={i}>
-              {f.from} → {f.to} | ${f.cost} + tax | {f.duration} | {f.type}
-            </li>
-          ))}
-        </ul>
-      )}
+      {loading && <p>Loading flights...</p>}
+
+      {!loading && flights.length === 0 && <p>No flights found.</p>}
+
+      <ul>
+        {flights.map((f, i) => (
+          <li key={i}>
+            ✈️ {f.departure_city} → {f.arrival_city} | ${f.price} | {f.duration} | {f.trip_type}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

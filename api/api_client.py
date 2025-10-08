@@ -1,5 +1,7 @@
 import os
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 
 API_KEY = os.getenv("SERPAPI_KEY")  # Make sure this is set in Vercel!
 

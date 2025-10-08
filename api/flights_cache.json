@@ -1,0 +1,1766 @@
+{
+  "search_metadata": {
+    "id": "68e6ef3edc74d071e40251e0",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/9e1bfa1d711c158a/68e6ef3edc74d071e40251e0.json",
+    "created_at": "2025-10-08 23:09:50 UTC",
+    "processed_at": "2025-10-08 23:09:50 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI1LTEwLTE1agcIARIDSkZLcgcIARIDTEFYGh4SCjIwMjUtMTAtMjlqBwgBEgNMQVhyBwgBEgNKRktCAQFIAXABmAEB&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/9e1bfa1d711c158a/68e6ef3edc74d071e40251e0.html",
+    "prettify_html_file": "https://serpapi.com/searches/9e1bfa1d711c158a/68e6ef3edc74d071e40251e0.prettify",
+    "total_time_taken": 1.06
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "us",
+    "type": "1",
+    "departure_id": "JFK",
+    "arrival_id": "LAX",
+    "outbound_date": "2025-10-15",
+    "return_date": "2025-10-29",
+    "adults": 1,
+    "children": 0,
+    "infants_in_seat": 0,
+    "currency": "USD"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 11:37"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 14:40"
+          },
+          "duration": 363,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 2503",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 252 kg"
+          ]
+        }
+      ],
+      "total_duration": 363,
+      "carbon_emissions": {
+        "this_flight": 252000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -30
+      },
+      "price": 314,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1pHT1RJMU1ETWFDd2ltOVFFUUFob0RWVk5FT0J4d3B2VUIiLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkY5IiwiMjUwMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 08:35"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 11:46"
+          },
+          "duration": 371,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 713",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 241 kg"
+          ]
+        }
+      ],
+      "total_duration": 371,
+      "carbon_emissions": {
+        "this_flight": 242000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -33
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZFVERjeE14b0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkRMIiwiNzEzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 09:30"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 12:29"
+          },
+          "duration": 359,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 255",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 550 kg"
+          ]
+        }
+      ],
+      "total_duration": 359,
+      "carbon_emissions": {
+        "this_flight": 551000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 53
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZCUVRJMU5Sb0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkFBIiwiMjU1Il1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 06:59"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2025-10-15 09:34"
+          },
+          "duration": 335,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 3237",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 231 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2025-10-15 18:31"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 19:53"
+          },
+          "duration": 82,
+          "airplane": "Airbus A321neo",
+          "airline": "Frontier",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+          "travel_class": "Economy",
+          "flight_number": "F9 1183",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 43 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 537,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ],
+      "total_duration": 954,
+      "carbon_emissions": {
+        "this_flight": 274000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -24
+      },
+      "price": 232,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F9.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZzFHT1RNeU16ZDhSamt4TVRnekdnc0luclVCRUFJYUExVlRSRGdjY0o2MUFRPT0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVMiLG51bGwsIkY5IiwiMzIzNyJdLFsiTEFTIiwiMjAyNS0xMC0xNSIsIkxBWCIsbnVsbCwiRjkiLCIxMTgzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 14:50"
+          },
+          "arrival_airport": {
+            "name": "Fort Lauderdale-Hollywood International Airport",
+            "id": "FLL",
+            "time": "2025-10-15 18:00"
+          },
+          "duration": 190,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 1501",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 168 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Fort Lauderdale-Hollywood International Airport",
+            "id": "FLL",
+            "time": "2025-10-15 20:30"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 23:11"
+          },
+          "duration": 341,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 2501",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 378 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 150,
+          "name": "Fort Lauderdale-Hollywood International Airport",
+          "id": "FLL"
+        }
+      ],
+      "total_duration": 681,
+      "carbon_emissions": {
+        "this_flight": 547000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 52
+      },
+      "price": 350,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZzFDTmpFMU1ERjhRall5TlRBeEdnc0lxcEVDRUFJYUExVlRSRGdjY0txUkFnPT0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJGTEwiLG51bGwsIkI2IiwiMTUwMSJdLFsiRkxMIiwiMjAyNS0xMC0xNSIsIkxBWCIsbnVsbCwiQjYiLCIyNTAxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 06:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 09:03"
+          },
+          "duration": 363,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 171",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 550 kg"
+          ]
+        }
+      ],
+      "total_duration": 363,
+      "carbon_emissions": {
+        "this_flight": 551000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 53
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZCUVRFM01Sb0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkFBIiwiMTcxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 07:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 10:05"
+          },
+          "duration": 365,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 1",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 550 kg"
+          ]
+        }
+      ],
+      "total_duration": 365,
+      "carbon_emissions": {
+        "this_flight": 551000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 53
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ05CUVRFYUN3aTgwUUlRQWhvRFZWTkVPQnh3dk5FQyIsW1siSkZLIiwiMjAyNS0xMC0xNSIsIkxBWCIsbnVsbCwiQUEiLCIxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 07:25"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 10:30"
+          },
+          "duration": 365,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 742",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 227 kg"
+          ]
+        }
+      ],
+      "total_duration": 365,
+      "carbon_emissions": {
+        "this_flight": 228000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -36
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZFVERjME1ob0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkRMIiwiNzQyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 09:55"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 13:02"
+          },
+          "duration": 367,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 773",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 241 kg"
+          ]
+        }
+      ],
+      "total_duration": 367,
+      "carbon_emissions": {
+        "this_flight": 242000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -33
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZFVERjM014b0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkRMIiwiNzczIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 11:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 13:59"
+          },
+          "duration": 359,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 3",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 550 kg"
+          ]
+        }
+      ],
+      "total_duration": 359,
+      "carbon_emissions": {
+        "this_flight": 551000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 53
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ05CUVRNYUN3aTgwUUlRQWhvRFZWTkVPQnh3dk5FQyIsW1siSkZLIiwiMjAyNS0xMC0xNSIsIkxBWCIsbnVsbCwiQUEiLCIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 11:10"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 14:15"
+          },
+          "duration": 365,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 767",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 241 kg"
+          ]
+        }
+      ],
+      "total_duration": 365,
+      "carbon_emissions": {
+        "this_flight": 242000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -33
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZFVERjMk54b0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkRMIiwiNzY3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 13:45"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 16:58"
+          },
+          "duration": 373,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 747",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 227 kg"
+          ]
+        }
+      ],
+      "total_duration": 373,
+      "carbon_emissions": {
+        "this_flight": 228000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -36
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZFVERjME54b0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkRMIiwiNzQ3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 15:29"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 18:34"
+          },
+          "duration": 365,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 341",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 550 kg"
+          ]
+        }
+      ],
+      "total_duration": 365,
+      "carbon_emissions": {
+        "this_flight": 551000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 53
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZCUVRNME1Sb0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkFBIiwiMzQxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 15:45"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 18:52"
+          },
+          "duration": 367,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 738",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 227 kg"
+          ]
+        }
+      ],
+      "total_duration": 367,
+      "carbon_emissions": {
+        "this_flight": 228000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -36
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZFVERjek9Cb0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkRMIiwiNzM4Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 16:50"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 20:01"
+          },
+          "duration": 371,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 771",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 227 kg"
+          ]
+        }
+      ],
+      "total_duration": 371,
+      "carbon_emissions": {
+        "this_flight": 228000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -36
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZFVERjM01Sb0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkRMIiwiNzcxIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 17:30"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 20:33"
+          },
+          "duration": 363,
+          "airplane": "Boeing 777",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 302",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 278 kg"
+          ]
+        }
+      ],
+      "total_duration": 363,
+      "carbon_emissions": {
+        "this_flight": 279000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -22
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZCUVRNd01ob0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkFBIiwiMzAyIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 18:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 21:19"
+          },
+          "duration": 379,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 353",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 241 kg"
+          ]
+        }
+      ],
+      "total_duration": 379,
+      "carbon_emissions": {
+        "this_flight": 242000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -33
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZFVERNMU14b0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkRMIiwiMzUzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 19:45"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 22:59"
+          },
+          "duration": 374,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 117",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 550 kg"
+          ]
+        }
+      ],
+      "total_duration": 374,
+      "carbon_emissions": {
+        "this_flight": 551000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 53
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZCUVRFeE54b0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkFBIiwiMTE3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 19:45"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 23:13"
+          },
+          "duration": 388,
+          "airplane": "Boeing 767",
+          "airline": "Delta",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+          "travel_class": "Economy",
+          "flight_number": "DL 707",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 227 kg"
+          ]
+        }
+      ],
+      "total_duration": 388,
+      "carbon_emissions": {
+        "this_flight": 228000,
+        "typical_for_this_route": 359000,
+        "difference_percent": -36
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZFVERjd054b0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkRMIiwiNzA3Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 21:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-16 00:21"
+          },
+          "duration": 381,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 300",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 550 kg"
+          ]
+        }
+      ],
+      "total_duration": 381,
+      "carbon_emissions": {
+        "this_flight": 551000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 53
+      },
+      "price": 432,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZCUVRNd01Cb0xDTHpSQWhBQ0dnTlZVMFE0SEhDODBRST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkFBIiwiMzAwIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 06:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 09:00"
+          },
+          "duration": 360,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 123",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 411 kg"
+          ]
+        }
+      ],
+      "total_duration": 360,
+      "carbon_emissions": {
+        "this_flight": 412000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 477,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZDTmpFeU14b0xDTkQwQWhBQ0dnTlZVMFE0SEhEUTlBST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiMTIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 07:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 10:04"
+          },
+          "duration": 364,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 223",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 414 kg"
+          ]
+        }
+      ],
+      "total_duration": 364,
+      "carbon_emissions": {
+        "this_flight": 414000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 477,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZDTmpJeU14b0xDTkQwQWhBQ0dnTlZVMFE0SEhEUTlBST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiMjIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 08:15"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 11:19"
+          },
+          "duration": 364,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 323",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 414 kg"
+          ]
+        }
+      ],
+      "total_duration": 364,
+      "carbon_emissions": {
+        "this_flight": 414000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 477,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZDTmpNeU14b0xDTkQwQWhBQ0dnTlZVMFE0SEhEUTlBST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiMzIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 15:59"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 19:03"
+          },
+          "duration": 364,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 1023",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 411 kg"
+          ]
+        }
+      ],
+      "total_duration": 364,
+      "carbon_emissions": {
+        "this_flight": 412000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 477,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1pDTmpFd01qTWFDd2pROUFJUUFob0RWVk5FT0J4dzBQUUMiLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiMTAyMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 20:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 23:15"
+          },
+          "duration": 375,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 823",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 414 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 375,
+      "carbon_emissions": {
+        "this_flight": 414000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 477,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZDTmpneU14b0xDTkQwQWhBQ0dnTlZVMFE0SEhEUTlBST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiODIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 21:10"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-16 00:14"
+          },
+          "duration": 364,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 1223",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 414 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 364,
+      "carbon_emissions": {
+        "this_flight": 414000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 477,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1pDTmpFeU1qTWFDd2pROUFJUUFob0RWVk5FT0J4dzBQUUMiLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiMTIyMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 22:30"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-16 01:41"
+          },
+          "duration": 371,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 923",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 414 kg"
+          ]
+        }
+      ],
+      "total_duration": 371,
+      "carbon_emissions": {
+        "this_flight": 414000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 477,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZDTmpreU14b0xDTkQwQWhBQ0dnTlZVMFE0SEhEUTlBST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiOTIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 16:30"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 19:34"
+          },
+          "duration": 364,
+          "airplane": "Airbus A321 (Sharklets)",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "travel_class": "Economy",
+          "flight_number": "AA 306",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 550 kg"
+          ]
+        }
+      ],
+      "total_duration": 364,
+      "carbon_emissions": {
+        "this_flight": 551000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 53
+      },
+      "price": 487,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZCUVRNd05ob0xDTG44QWhBQ0dnTlZVMFE0SEhDNS9BST0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkFBIiwiMzA2Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 17:55"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 21:03"
+          },
+          "duration": 368,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 1523",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 414 kg"
+          ]
+        }
+      ],
+      "total_duration": 368,
+      "carbon_emissions": {
+        "this_flight": 414000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 497,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1pDTmpFMU1qTWFDd2loaEFNUUFob0RWVk5FT0J4d29ZUUQiLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiMTUyMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 09:20"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 12:15"
+          },
+          "duration": 355,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 523",
+          "legroom": "32 in",
+          "extensions": [
+            "Above average legroom (32 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 411 kg"
+          ]
+        }
+      ],
+      "total_duration": 355,
+      "carbon_emissions": {
+        "this_flight": 412000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 532,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZDTmpVeU14b0xDTTJmQXhBQ0dnTlZVMFE0SEhETm53TT0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiNTIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John F. Kennedy International Airport",
+            "id": "JFK",
+            "time": "2025-10-15 12:00"
+          },
+          "arrival_airport": {
+            "name": "Los Angeles International Airport",
+            "id": "LAX",
+            "time": "2025-10-15 15:00"
+          },
+          "duration": 360,
+          "airplane": "Airbus A320",
+          "airline": "JetBlue",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+          "travel_class": "Economy",
+          "flight_number": "B6 423",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
+            "Live TV",
+            "Carbon emissions estimate: 414 kg"
+          ]
+        }
+      ],
+      "total_duration": 360,
+      "carbon_emissions": {
+        "this_flight": 414000,
+        "typical_for_this_route": 359000,
+        "difference_percent": 15
+      },
+      "price": 592,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "extensions": [
+        "Checked baggage for a fee",
+        "Bag and fare conditions depend on the return flight"
+      ],
+      "departure_token": "WyJDalJJUmt0ZmIzTkhXRlJ4Ym1kQlFYTlpNMEZDUnkwdExTMHRMUzB0TFMxd2FuVmtORUZCUVVGQlIycHROM28wVDBaYVFuRkJFZ1ZDTmpReU14b0xDTDNPQXhBQ0dnTlZVMFE0SEhDOXpnTT0iLFtbIkpGSyIsIjIwMjUtMTAtMTUiLCJMQVgiLG51bGwsIkI2IiwiNDIzIl1dXQ=="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 232,
+    "price_level": "typical",
+    "typical_price_range": [
+      175,
+      310
+    ],
+    "price_history": [
+      [
+        1754712000,
+        188
+      ],
+      [
+        1754798400,
+        211
+      ],
+      [
+        1754884800,
+        218
+      ],
+      [
+        1754971200,
+        218
+      ],
+      [
+        1755057600,
+        176
+      ],
+      [
+        1755144000,
+        176
+      ],
+      [
+        1755230400,
+        176
+      ],
+      [
+        1755316800,
+        176
+      ],
+      [
+        1755403200,
+        176
+      ],
+      [
+        1755489600,
+        176
+      ],
+      [
+        1755576000,
+        176
+      ],
+      [
+        1755662400,
+        176
+      ],
+      [
+        1755748800,
+        176
+      ],
+      [
+        1755835200,
+        176
+      ],
+      [
+        1755921600,
+        176
+      ],
+      [
+        1756008000,
+        176
+      ],
+      [
+        1756094400,
+        176
+      ],
+      [
+        1756180800,
+        176
+      ],
+      [
+        1756267200,
+        176
+      ],
+      [
+        1756353600,
+        176
+      ],
+      [
+        1756440000,
+        176
+      ],
+      [
+        1756526400,
+        176
+      ],
+      [
+        1756612800,
+        205
+      ],
+      [
+        1756699200,
+        182
+      ],
+      [
+        1756785600,
+        182
+      ],
+      [
+        1756872000,
+        176
+      ],
+      [
+        1756958400,
+        176
+      ],
+      [
+        1757044800,
+        176
+      ],
+      [
+        1757131200,
+        193
+      ],
+      [
+        1757217600,
+        184
+      ],
+      [
+        1757304000,
+        184
+      ],
+      [
+        1757390400,
+        189
+      ],
+      [
+        1757476800,
+        184
+      ],
+      [
+        1757563200,
+        184
+      ],
+      [
+        1757649600,
+        179
+      ],
+      [
+        1757736000,
+        178
+      ],
+      [
+        1757822400,
+        178
+      ],
+      [
+        1757908800,
+        207
+      ],
+      [
+        1757995200,
+        179
+      ],
+      [
+        1758081600,
+        194
+      ],
+      [
+        1758168000,
+        207
+      ],
+      [
+        1758254400,
+        206
+      ],
+      [
+        1758340800,
+        206
+      ],
+      [
+        1758427200,
+        166
+      ],
+      [
+        1758513600,
+        166
+      ],
+      [
+        1758600000,
+        166
+      ],
+      [
+        1758686400,
+        166
+      ],
+      [
+        1758772800,
+        174
+      ],
+      [
+        1758859200,
+        176
+      ],
+      [
+        1758945600,
+        176
+      ],
+      [
+        1759032000,
+        176
+      ],
+      [
+        1759118400,
+        176
+      ],
+      [
+        1759204800,
+        176
+      ],
+      [
+        1759291200,
+        176
+      ],
+      [
+        1759377600,
+        206
+      ],
+      [
+        1759464000,
+        207
+      ],
+      [
+        1759550400,
+        207
+      ],
+      [
+        1759636800,
+        232
+      ],
+      [
+        1759723200,
+        232
+      ],
+      [
+        1759809600,
+        232
+      ],
+      [
+        1759896000,
+        232
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "JFK",
+            "name": "John F. Kennedy International Airport"
+          },
+          "city": "New York",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRa1dwH1NZQk4dsbPiyA9Vrq2RX75jXSZ-OkHn7NkLHl-11HercqDXoZ4p2cDxJkH6vca2degawrCzHEQ",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEaUa9NsdPWGpAUGkTApkZDT_4M6_6V8wTcC0v1b1wJAJX-BuMSiipXbsoznGgcI1xLOc5QiTcR_xovexgjdOz0gqQe0tRQ9h0bUkZ07Q"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "LAX",
+            "name": "Los Angeles International Airport"
+          },
+          "city": "Los Angeles",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFuS2Y5_b7ZIl-g2Hm7jnG7zoi2uk0CQltF_DFbp6gIzfYznnOB6uJm9d6ePT5PJO5XM1j8vigwCNxRA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4B0K7etaN3KgEgtU5dJajdcmLtB5QSDRYr4KqcwH1iWxMm7TIqwtcUTTHD5AmNyeeFIpVpTnbSDeuD_HVlkYzOam-TO9w1worRSGRTUo"
+        }
+      ]
+    },
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "LAX",
+            "name": "Los Angeles International Airport"
+          },
+          "city": "Los Angeles",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFuS2Y5_b7ZIl-g2Hm7jnG7zoi2uk0CQltF_DFbp6gIzfYznnOB6uJm9d6ePT5PJO5XM1j8vigwCNxRA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4B0K7etaN3KgEgtU5dJajdcmLtB5QSDRYr4KqcwH1iWxMm7TIqwtcUTTHD5AmNyeeFIpVpTnbSDeuD_HVlkYzOam-TO9w1worRSGRTUo"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "JFK",
+            "name": "John F. Kennedy International Airport"
+          },
+          "city": "New York",
+          "country": "United States",
+          "country_code": "US",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRa1dwH1NZQk4dsbPiyA9Vrq2RX75jXSZ-OkHn7NkLHl-11HercqDXoZ4p2cDxJkH6vca2degawrCzHEQ",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEaUa9NsdPWGpAUGkTApkZDT_4M6_6V8wTcC0v1b1wJAJX-BuMSiipXbsoznGgcI1xLOc5QiTcR_xovexgjdOz0gqQe0tRQ9h0bUkZ07Q"
+        }
+      ]
+    }
+  ]
+}

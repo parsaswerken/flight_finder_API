@@ -2,7 +2,6 @@ import os
 import json
 import time
 from api_client import fetch_all_us_flights
-from .api_client import fetch_all_us_flights
 
 # Cache file (stored in the same directory as flights.py)
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "flights_cache.json")
@@ -61,4 +60,4 @@ def handler(request):
 # 🔹 Run locally with: python api/flights.py
 if __name__ == "__main__":
     result = get_flights()
-    print(json.dumps(result[:3], indent=2))  # show first 3 results
+
